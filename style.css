@@ -4,11 +4,10 @@
 * {
     font-family: "Roboto", sans-serif;
     font-weight: normal;
-    font-size: 18px;
-    margin: 0;
 }
 
 body {
+    font-size: 18px;
     margin: 0;
 }
 
@@ -17,9 +16,13 @@ body {
     color: #f9faf8;
 }
 
+.align-container {
+    width: 75vw;
+    margin: 0 auto;
+}
+
 /* nav style */
 nav {
-    width: 75vw;
     margin: 0 auto;
     padding: 16px 0;
     display: flex;
@@ -53,7 +56,6 @@ header .logo {
 }
 
 .hero-container {
-    width: 75vw;
     height: 60%;
     display: flex;
 
@@ -79,7 +81,68 @@ header .logo {
     width: auto;
 }
 
+/*info style*/
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    color: #1f2937;
+}
+
+.info h2 {
+    margin: 48px 0;
+
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.cards {
+    
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+
+    margin-bottom: 96px;
+}
+
+.card { 
+    text-align: center;
+    width: 160px;
+    font-size: 17px;
+}
+
+.card-img {   
+    height: 160px;
+    
+    border: #3882f6 4px solid;
+    border-radius: 16px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote-container {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    font-size: 36px;
+    font-style: italic;
+}
+
+.call {
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
 button {
+    font-size: 18px;
     margin: 16px 0;
     padding: 8px 32px;
     border-style: none;
@@ -90,3 +153,4 @@ button {
     color: white;
     background-color: #3882f6;  
 }
+
