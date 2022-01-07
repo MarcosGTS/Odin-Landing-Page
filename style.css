@@ -98,6 +98,7 @@ header .logo {
     font-weight: bold;
 }
 
+/*cards style*/
 .cards {
     
     display: flex;
@@ -120,12 +121,16 @@ header .logo {
     border-radius: 16px;
 }
 
+/*quote style*/
+
 .quote {
     background-color: #e5e7eb;
 }
 
 .quote-container {
     height: 60vh;
+    width: 55vw;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -134,11 +139,43 @@ header .logo {
     font-style: italic;
 }
 
+.signature {
+    margin: 16px;
+    font-size: 24px;
+    font-weight: 900;
+    font-style: normal;
+    align-self: end;
+}
+
+/*quote style*/
+
 .call {
+    margin: 96px auto;
+
+    background-color: #3882f6;
+    color: white;
+
+    border-radius: 8px;
+}
+
+.call-container {
+    width: 60vw;
     margin: 0 auto;
+    padding: 48px 0;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.call button {
+    border: white 2px solid;
+    margin: 0;
+}
+
+.call h3 {
+    margin: 0;
+    font-weight: bold;
 }
 
 button {
@@ -154,3 +191,6 @@ button {
     background-color: #3882f6;  
 }
 
+footer {
+    text-align: center;
+}
