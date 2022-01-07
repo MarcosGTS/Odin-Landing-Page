@@ -47,7 +47,7 @@ header .logo {
     font-weight: bold;
 }
 
-/* nav hero*/
+/* hero style */
 .hero {
     height: 70vh;
     display: flex;
@@ -82,7 +82,6 @@ header .logo {
 }
 
 /*info style*/
-
 .info {
     display: flex;
     flex-direction: column;
@@ -122,7 +121,6 @@ header .logo {
 }
 
 /*quote style*/
-
 .quote {
     background-color: #e5e7eb;
 }
@@ -148,12 +146,11 @@ header .logo {
 }
 
 /*quote style*/
-
 .call {
     margin: 96px auto;
 
     background-color: #3882f6;
-    color: white;
+    color: #f9faf8;
 
     border-radius: 8px;
 }
@@ -169,7 +166,7 @@ header .logo {
 }
 
 .call button {
-    border: white 2px solid;
+    border: #f9faf8 2px solid;
     margin: 0;
 }
 
@@ -187,10 +184,12 @@ button {
     
     font-weight: bold;
 
-    color: white;
+    color: #f9faf8;
     background-color: #3882f6;  
 }
 
+/*footer style*/
 footer {
+    padding: 32px;
     text-align: center;
 }
